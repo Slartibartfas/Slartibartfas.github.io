@@ -70,20 +70,20 @@ function preload() {
   print("Loading...");
   
   // Laden der Bilder
-  img2 = loadImage("violin.png");
-  img3 = loadImage("cello.png");
-  img4 = loadImage("flute.png");
-  img5 = loadImage("oboe.png");
-  img6 = loadImage("clarinet.png");
-  img7 = loadImage("bassoon.png");
-  img8 = loadImage("horn.png");
-  img9 = loadImage("trumpet.png");
-  img10 = loadImage("trombone.png");
-  img11 = loadImage("tuba.png");
-  img12 = loadImage("harp.png");
-  img13 = loadImage("snare_top.png");
-  img14 = loadImage("timpani.png");
-  img15 = loadImage("double_bass.png");
+  img2 = loadImage("Bilder/violin.png");
+  img3 = loadImage("Bilder/cello.png");
+  img4 = loadImage("Bilder/flute.png");
+  img5 = loadImage("Bilder/oboe.png");
+  img6 = loadImage("Bilder/clarinet.png");
+  img7 = loadImage("Bilder/bassoon.png");
+  img8 = loadImage("Bilder/horn.png");
+  img9 = loadImage("Bilder/trumpet.png");
+  img10 = loadImage("Bilder/trombone.png");
+  img11 = loadImage("Bilder/tuba.png");
+  img12 = loadImage("Bilder/harp.png");
+  img13 = loadImage("Bilder/snare_top.png");
+  img14 = loadImage("Bilder/timpani.png");
+  img15 = loadImage("Bilder/double_bass.png");
 
   // Laden der Sounds
   violin1FileNames = ["A_1_1", "A_1_2", "A_1_3", "A_2_1", "A_2_2", "A_2_3", "B_1_1", "B_1_2", "B_1_3", "B_2_1", "B_2_2", "B_2_3", "Z_1"];
