@@ -122,67 +122,67 @@ function preload() {
   amp = [0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.5, 0.4, 0.5, 0.5, 0.7, 1.0, 0.5, 0.6];
 
   for (var i = 0; i < violin1FileNames.length; i++) {
-    violin1Sounds[i] = loadSound("Sound/Violine1/Violine1_" + violin1FileNames[i] + ".wav");
+    violin1Sounds[i] = loadSound("Sound/Violine1/Violine1_" + violin1FileNames[i] + ".mp3");
     violin1Sounds[i].setVolume(amp[0]);
   }
   for (var i = 0; i < violin2FileNames.length; i++) {
-    violin2Sounds[i] = loadSound("Sound/Violine2/Violine2_" + violin2FileNames[i] + ".wav");
+    violin2Sounds[i] = loadSound("Sound/Violine2/Violine2_" + violin2FileNames[i] + ".mp3");
     violin2Sounds[i].setVolume(amp[1]);
   }
   for (var i = 0; i < violaFileNames.length; i++) {
-    violaSounds[i] = loadSound("Sound/Viola/Viola_" + violaFileNames[i] + ".wav");
+    violaSounds[i] = loadSound("Sound/Viola/Viola_" + violaFileNames[i] + ".mp3");
     violaSounds[i].setVolume(amp[2]);
   }
   for (var i = 0; i < violoncelloFileNames.length; i++) {
-    violoncelloSounds[i] = loadSound("Sound/Violoncello/Violoncello_" + violoncelloFileNames[i] + ".wav");
+    violoncelloSounds[i] = loadSound("Sound/Violoncello/Violoncello_" + violoncelloFileNames[i] + ".mp3");
     violoncelloSounds[i].setVolume(amp[3]);
   }
   for (var i = 0; i < fluteFileNames.length; i++) {
-    fluteSounds[i] = loadSound("Sound/Floete/Floete_" + fluteFileNames[i] + ".wav");
+    fluteSounds[i] = loadSound("Sound/Floete/Floete_" + fluteFileNames[i] + ".mp3");
     fluteSounds[i].setVolume(amp[4]);
   }
   for (var i = 0; i < oboeFileNames.length; i++) {
-    oboeSounds[i] = loadSound("Sound/Oboe/Oboe_" + oboeFileNames[i] + ".wav");
+    oboeSounds[i] = loadSound("Sound/Oboe/Oboe_" + oboeFileNames[i] + ".mp3");
     oboeSounds[i].setVolume(amp[5]);
   }
   for (var i = 0; i < clarinetFileNames.length; i++) {
-    clarinetSounds[i] = loadSound("Sound/Klarinette/Klarinette_" + clarinetFileNames[i] + ".wav");
+    clarinetSounds[i] = loadSound("Sound/Klarinette/Klarinette_" + clarinetFileNames[i] + ".mp3");
     clarinetSounds[i].setVolume(amp[6]);
   }
   for (var i = 0; i < bassoonFileNames.length; i++) {
-    bassoonSounds[i] = loadSound("Sound/Fagott/Fagott_" + bassoonFileNames[i] + ".wav");
+    bassoonSounds[i] = loadSound("Sound/Fagott/Fagott_" + bassoonFileNames[i] + ".mp3");
     bassoonSounds[i].setVolume(amp[7]);
   }
   for (var i = 0; i < hornFileNames.length; i++) {
-    hornSounds[i] = loadSound("Sound/Horn/Horn_" + hornFileNames[i] + ".wav");
+    hornSounds[i] = loadSound("Sound/Horn/Horn_" + hornFileNames[i] + ".mp3");
     hornSounds[i].setVolume(amp[8]);
   }
   for (var i = 0; i < trumpetFileNames.length; i++) {
-    trumpetSounds[i] = loadSound("Sound/Trompete/Trompete_" + trumpetFileNames[i] + ".wav");
+    trumpetSounds[i] = loadSound("Sound/Trompete/Trompete_" + trumpetFileNames[i] + ".mp3");
     trumpetSounds[i].setVolume(amp[9]);
   }
   for (var i = 0; i < tromboneFileNames.length; i++) {
-    tromboneSounds[i] = loadSound("Sound/Posaune/Posaune_" + tromboneFileNames[i] + ".wav");
+    tromboneSounds[i] = loadSound("Sound/Posaune/Posaune_" + tromboneFileNames[i] + ".mp3");
     tromboneSounds[i].setVolume(amp[10]);
   }
   for (var i = 0; i < tubaFileNames.length; i++) {
-    tubaSounds[i] = loadSound("Sound/Tuba/Tuba_" + tubaFileNames[i] + ".wav");
+    tubaSounds[i] = loadSound("Sound/Tuba/Tuba_" + tubaFileNames[i] + ".mp3");
     tubaSounds[i].setVolume(amp[11]);
   }
   for (var i = 0; i < harpFileNames.length; i++) {
-    harpSounds[i] = loadSound("Sound/Harfe/Harfe_" + harpFileNames[i] + ".wav");
+    harpSounds[i] = loadSound("Sound/Harfe/Harfe_" + harpFileNames[i] + ".mp3");
     harpSounds[i].setVolume(amp[12]);
   }
   for (var i = 0; i < drumFileNames.length; i++) {
-    drumSounds[i] = loadSound("Sound/Trommel/Trommel_" + drumFileNames[i] + ".wav");
+    drumSounds[i] = loadSound("Sound/Trommel/Trommel_" + drumFileNames[i] + ".mp3");
     drumSounds[i].setVolume(amp[13]);
   }
   for (var i = 0; i < timpaniFileNames.length; i++) {
-    timpaniSounds[i] = loadSound("Sound/Pauken/Pauken_" + timpaniFileNames[i] + ".wav");
+    timpaniSounds[i] = loadSound("Sound/Pauken/Pauken_" + timpaniFileNames[i] + ".mp3");
     timpaniSounds[i].setVolume(amp[14]);
   }
   for (var i = 0; i < doublebassFileNames.length; i++) {
-    doublebassSounds[i] = loadSound("Sound/Kontrabass/Kontrabass_" + doublebassFileNames[i] + ".wav");
+    doublebassSounds[i] = loadSound("Sound/Kontrabass/Kontrabass_" + doublebassFileNames[i] + ".mp3");
     doublebassSounds[i].setVolume(amp[15]);
   }
   
